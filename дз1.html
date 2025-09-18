@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+ // 1) возраст
+        // let age = +prompt("Введи свой возраст");
+        // if (age >= 0 && age <= 2) {
+        //     alert("ребенок");
+        // } else if (age >= 12 && age <= 18) {
+        //     alert("подросток");
+        // } else if (age > 18 && age <= 60) {
+        //     alert("взрослый");
+        // } else if (age > 60) {
+        //     alert("пенсионер");
+        // } else {
+        //     alert("unknown");
+        // }
+// 2) символы
+        // let d = +prompt("Введите число 0-9:");
+        // switch (d) {
+        //     case 1: alert("!"); break;
+        //     case 2: alert("@"); break;
+        //     case 3: alert("#"); break;
+        //     case 4: alert("$"); break;
+        //     case 5: alert("%"); break;
+        //     case 6: alert("^"); break;
+        //     case 7: alert("&"); break;
+        //     case 8: alert("*"); break;
+        //     case 9: alert("("); break;
+        //     case 0: alert(")"); break;
+        //     default: alert("нет символа");
+        // }
+        // 3) 3-digit chislo → odinakovie cifry?
+      //   let n = +prompt("Введи трехзначное число:");
+      //   if (n >= 100 && n <= 999) {
+      //       let a = Math.floor(n/100);
+      //       let b = Math.floor(n/10) % 10;
+      //       let c = n % 10;
+      //       if (a===b  a===c  b===c)
+      //       {
+      //           alert("есть одинаковые цифры");
+      //       } 
+      //       else
+      //       {
+      //           alert("нет одинаковых чисел");
+      //       }
+      //   else 
+      //   {
+      //       alert("не 3-х значное число");
+      //   }
+      // }
+      // 4) год високосный?
+        // let year = +prompt("Введи год:");
+        // if ( (year%400===0) || (year%4===0 && year%100!==0) ) {
+        //     alert("Высокосный");
+        // } else {
+        //     alert("не высокосный");
+        // }
+         // 5) палидром
+        // let n5 = +prompt("Введи 5-ти значное число:");
+        // if (n5>=10000 && n5<=99999) {
+        //     let d1 = Math.floor(n5/10000);
+        //     let d2 = Math.floor(n5/1000)%10;
+        //     let d4 = Math.floor(n5/10)%10;
+        //     let d5 = n5%10;
+        //     if (d1===d5 && d2===d4) {
+        //         alert("палидром");
+        //     } else {
+        //         alert("не полидром");
+        //     }
+        // } else {
+        //     alert("не 5-ти значное");
+        // }
+ // 6) USD конвертер
+        // let usd = +prompt("Введи USD:");
+        // let cur = prompt("Введи валюту (EUR/UAH/AZN):").toUpperCase();
+        // if (cur==="EUR") alert(usd*0.92 + " EUR");
+        // else if (cur==="UAH" || cur==="UAN") alert(usd*41.5 + " UAH");
+        // else if (cur==="AZN") alert(usd*1.7 + " AZN");
+        // else alert("unknown val");
+
+         // 7) скидка по сумме
+        // let sum = +prompt("Введи сумму покупки:");
+        // let disc = 0;
+        // if (sum>=500) disc=0.07;
+        // else if (sum>=300) disc=0.05;
+        // else if (sum>=200) disc=0.03;
+        // alert("К оплате: " + (sum - sum*disc));
+
+        // 8) окружность и квадрат
+        // let C = +prompt("Длина окружности:");
+        // let P = +prompt("Периметер квадрата:");
+        // let diam = C/Math.PI;
+        // let side = P/4;
+        // if (diam <= side) {
+        //     alert("okrujnost vhodit");
+        // } else {
+        //     alert("ne vhodit");
+        // }
+
+        // 9) мини викторина
+        // let score=0;
+        // let q1 = prompt("2+2=? a)3 b)4 c)5");
+        // if (q1==="b") score+=2;
+        // let q2 = prompt("Столица Франции? a)Berlin b)Paris c)Rome");
+        // if (q2==="b") score+=2;
+        // let q3 = prompt("Слово для метода в Java? a)static b)class c)main");
+        // if (q3==="a") score+=2;
+        // alert("Очки: "+score);
+
+        // 10) дата
+        // let day = +prompt("День:");
+        // let mmonth = +prompt("Месяц:");
+        // let yyear = +prompt("Год:");
+        // let dim;
+        // switch(mmonth){
+        //     case 1:case 3:case 5:case 7:case 8:case 10:case 12: dim=31; break;
+        //     case 4:case 6:case 9:case 11: dim=30; break;
+        //     case 2: dim=((yyear%400===0)||(yyear%4===0&&yyear%100!==0))?29:28; break;
+        //     default: dim=0;
+        // }
+        // if (dday<1 || dday>dim) 
+        //   {
+        //     alert("неправильная дата");
+        // } else {
+        //     dday++;
+        //     if (dday>dim){ dday=1; mmonth++; }
+        //     if (mmonth>12){ mmonth=1; yyear++; }
+        //     alert("next: "+dday+"."+mmonth+"."+yyear);
+        // }
+  </script>
+</body>
+</html>
